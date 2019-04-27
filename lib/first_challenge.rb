@@ -18,7 +18,7 @@ contacts.collect do |key, value|
     value.delete_if {|flavor| flavor == "strawberry"}
   end
 end
-end
+
 
     
   
