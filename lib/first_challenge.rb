@@ -22,7 +22,6 @@ contacts.collect do |person, data|
       end      
     end 
   end 
-end  
       return contacts
       
 end 
