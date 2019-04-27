@@ -15,7 +15,12 @@ def first_challenge
     }
   }
 
-contacts.collect do |key, value|
+contacts.collect do |person, data|
+  data.collect do |attribute, value|
+    if attribute == "favorite_icecream_flavors"
+      if value.contain
+  
+  
   if key == :favorite_icecream_flavors
     value.delete_if("strawberry")
   end
