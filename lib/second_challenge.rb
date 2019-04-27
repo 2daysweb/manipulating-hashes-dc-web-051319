@@ -5,9 +5,11 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
+flattened_array = []
+groceries.collect do |key, array|
 
-groceries.values 
-
+flattened_array + array 
+end
   
 
 end
