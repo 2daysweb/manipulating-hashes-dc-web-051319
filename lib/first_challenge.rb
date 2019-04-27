@@ -1,4 +1,4 @@
-
+require 'pry'
 
 def first_challenge
   contacts = {
@@ -18,6 +18,7 @@ def first_challenge
 contacts.collect do |key, value|
   if key == "favorite_icecream_flavor"
     value.delete_if {|flavor| flavor == "strawberry"}
+    binding.pry
   end
 end
  
