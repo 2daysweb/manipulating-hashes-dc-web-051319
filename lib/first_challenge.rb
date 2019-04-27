@@ -15,6 +15,7 @@ def first_challenge
 
 contacts["Freddy Mercury"][:favorite_icecream_flavors] << "mint chip"
  
+return contacts
       
 end 
 
