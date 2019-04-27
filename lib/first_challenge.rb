@@ -20,8 +20,11 @@ contacts.collect do |person, data|
     if attribute == "favorite_icecream_flavors"
       if value.include?("strawberry")
         value.delete_if {|flavor| flavor == "strawberry"}
-  end      
-end    return contacts
+      end      
+    end 
+  end 
+end  
+      return contacts
       
 end 
 
