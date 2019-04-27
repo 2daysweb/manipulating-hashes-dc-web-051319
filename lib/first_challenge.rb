@@ -13,9 +13,9 @@ def first_challenge
     }
   }
 
-contacts.each do |key, value|
+contacts.collect do |key, value|
   if key == "favorite_icecream_flavor"
-    delete_if()
+    value.delete_if
   
 
 
