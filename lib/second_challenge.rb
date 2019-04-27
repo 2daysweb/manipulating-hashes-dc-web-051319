@@ -7,9 +7,9 @@ def second_challenge
   }
 flattened_array = []
 groceries.collect do |key, array|
-
 flattened_array + array 
 end
-  
+
+return flattened_array
 
 end
