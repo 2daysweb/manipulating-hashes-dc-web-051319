@@ -18,7 +18,6 @@ def first_challenge
 contacts.collect do |key, value|
   if key == :favorite_icecream_flavors
     value.delete_if("strawberry")
-    binding.pry
   end
 end
  
