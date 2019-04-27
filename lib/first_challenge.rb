@@ -18,7 +18,8 @@ def first_challenge
 contacts.collect do |person, data|
   data.collect do |attribute, value|
     if attribute == "favorite_icecream_flavors"
-      if value.contain
+      if value.include?("strawberry")
+        
   
   
   if key == :favorite_icecream_flavors
